@@ -1,4 +1,4 @@
-RecipeMaster
+
 RecipeMaster is a simple and user-friendly Android app designed to help users browse, upload, update, and manage their favorite food recipes easily.
 
 Features

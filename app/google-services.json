@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "292150963117",
+    "firebase_url": "https://recipeapp-dc6c8-default-rtdb.firebaseio.com",
+    "project_id": "recipeapp-dc6c8",
+    "storage_bucket": "recipeapp-dc6c8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292150963117:android:f55e54ab16629dd5050f24",
+        "android_client_info": {
+          "package_name": "ca.mohawk.foodrecipeapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy_SO63H3xmpZJR8Dllacxj_Er8XV1Cck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

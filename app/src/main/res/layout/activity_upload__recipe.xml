@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9F6ED"
+    android:padding="20dp"
+    tools:context=".Upload_Recipe">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@android:color/white"
+        android:elevation="3dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:paddingBottom="20dp"
+        android:clipToPadding="false"
+        android:layout_gravity="center"
+        android:backgroundTint="#FFFFFF">
+
+        <EditText
+            android:id="@+id/txt_recipe_name"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_edittext"
+            android:hint="Recipe Name"
+            android:paddingHorizontal="16dp"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/text_description"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_edittext"
+            android:hint="Description"
+            android:paddingHorizontal="16dp"
+            android:gravity="top"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/text_price"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_edittext"
+            android:hint="Cook Time"
+            android:paddingHorizontal="16dp"
+            android:textSize="18sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:onClick="btnUploadRecipe"
+            android:text="Upload Recipe"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-medium" />
+
+    </LinearLayout>
+
+</ScrollView>
